@@ -8,8 +8,11 @@
 
 import Foundation
 
-class CellModel {
-    var hit:String?
+class CellModel: NSObject{
+    var hit: String?
+    var ll: Int?
+    var ff: String?
+    var nn: NSNumber?
 }
 
 extension CellModel : TTModel {

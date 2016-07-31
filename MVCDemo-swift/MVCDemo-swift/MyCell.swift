@@ -24,7 +24,7 @@ extension MyCell : TTView {
         }
         
         let m =  model as! CellModel
-        
+        m.parse(["hit":[String](),"ll":20,"nn":NSNumber.init(int: 11)])
         hitLable.text = m.hit
         
         return true
